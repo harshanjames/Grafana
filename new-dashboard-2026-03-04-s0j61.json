@@ -24,7 +24,20 @@
     "editable": true,
     "fiscalYearStartMonth": 0,
     "graphTooltip": 0,
-    "links": [],
+    "links": [
+      {
+        "asDropdown": false,
+        "icon": "external link",
+        "includeVars": false,
+        "keepTime": false,
+        "tags": [],
+        "targetBlank": true,
+        "title": "Source (GitHub)",
+        "tooltip": "View source file in repository",
+        "type": "link",
+        "url": "https://github.com/harshanjames/Grafana/blob/main/new-dashboard-2026-03-04-s0j61.json"
+      }
+    ],
     "panels": [
       {
         "datasource": {
@@ -115,7 +128,7 @@
               "uid": "grafanacloud-prom"
             },
             "editorMode": "builder",
-            "expr": "alloy_build_info",
+            "expr": "alloy_build_info{collector_id=\"Harshan\"}",
             "legendFormat": "__auto",
             "range": true,
             "refId": "A"
