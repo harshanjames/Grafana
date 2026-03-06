@@ -24,7 +24,20 @@
     "editable": true,
     "fiscalYearStartMonth": 0,
     "graphTooltip": 0,
-    "links": [],
+    "links": [
+      {
+        "asDropdown": false,
+        "icon": "external link",
+        "includeVars": false,
+        "keepTime": false,
+        "tags": [],
+        "targetBlank": true,
+        "title": "Source (GitHub)",
+        "tooltip": "View source file in repository",
+        "type": "link",
+        "url": "https://github.com/harshanjames/Grafana/blob/main/testGrafana-2026-03-06-0z9ae.json"
+      }
+    ],
     "panels": [
       {
         "datasource": {
@@ -137,7 +150,7 @@
     },
     "timepicker": {},
     "timezone": "browser",
-    "title": "Grafana test ",
+    "title": "Grafana test 123",
     "weekStart": ""
   }
 }
